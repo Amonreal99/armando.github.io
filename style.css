@@ -1,0 +1,222 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: "Roboto", sans-serif;
+    background-color: greenyellow;
+}
+
+
+.navbar{
+background-color:rgb(242, 140, 242);
+border-radius: 5px;
+border-color: purple;
+color: white;
+display: flex;
+flex-direction: column;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.footbar{
+    background-color: rgb(127, 236, 234);
+    color:black;
+    display: flex;
+    flex-direction: column;
+}
+
+.splash{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+}
+
+.splash p{
+    font-family: "Roboto", sans-serif;
+    font-size:20px;
+    font-weight:400;
+
+}
+.splash img{
+    width: 200px;
+    height: auto;
+    border-radius: 5%; 
+    box-shadow: 10px 10px lightblue;
+}
+.splash a{
+    text-decoration: none;
+}
+
+hr{
+    width: 60%; 
+    text-align: left;
+    border-top: 2px solid black;
+}
+
+.title{
+    font-family: "Arsenal", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #C76E00;
+    text-align: center;
+}
+a:link{
+    color: rgb(8, 4, 237);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(214, 5, 5);
+    background-color: transparent;
+
+}
+a:hover{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+   .sections ul{
+        background:rgb(242, 140, 242);
+        padding: 20px;
+        box-shadow: 0 8px 12px lightblue;
+        text-align: center;
+    }
+    .sections dl{
+        background: rgb(242, 140, 242);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        box-shadow: 0 8px 12px lightblue;
+        text-align: center;
+    }
+    .edu-box{
+        background-color: rgb(242, 140, 242);
+        padding: 20px;
+        box-shadow: 0 8px 12px lightblue;
+        text-align: center;
+    }
+
+.three-col{
+    background: rgb(224, 151, 16);
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    padding:20px;
+    box-sizing: border-box;
+}
+.proj{
+    justify-content: center;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 450;
+    border: 5px dotted #0a0202;
+    border-radius: 8px;
+    background-color: #c0b0b0;
+    box-shadow: 0 4px 8px lightblue;
+    transition: transform 0.3s ease;
+}
+
+.one-col{
+    display:grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    padding:20px;
+    box-sizing: border-box;
+    justify-content: start; 
+}
+.one-col p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(242, 140, 242);
+    padding: 20px;
+    box-shadow: 0 8px 12px lightblue;
+    text-align: center;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.navbar-contact, .footbar-contact {
+    background-color: rgb(242, 140, 242);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    width: 100%; 
+    max-width: 1200px; 
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    max-width: 600px; 
+    width: 100%; 
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #0077B5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #005f8a; 
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+
+
+
